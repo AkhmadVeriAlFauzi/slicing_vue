@@ -42,7 +42,7 @@ function handleConfirm() {
       </div>
 
       <!-- Konten Kanan (25%) -->
-      <div class="w-[25%] bg-[#F5EFFC] h-auto p-6">
+      <div class="w-[25%] bg-[#F5EFFC] bg-opacity-50 h-auto p-6">
         <div class="flex flex-col gap-4">
             <h1 class="font-bold text-md">My Card</h1>
             <BankingCard />
@@ -58,18 +58,18 @@ function handleConfirm() {
                 </div>
                 <div class="w-full py-3">
                     <Field
-              v-model="amountText"
-              label="Amount"
-              placeholder="Insert amount"
-              icon="/icons/Money.png" 
-            />
+                    v-model="amountText"
+                    label="Amount"
+                    placeholder="Insert amount"
+                    icon="/icons/Money.png" 
+                    />
                 </div>
                 <div class="w-full py-3">
                     <Field
-              v-model="referenceText"
-              label="Reference"
-              placeholder="Enter reference here"
-            />
+                    v-model="referenceText"
+                    label="Reference"
+                    placeholder="Enter reference here"
+                    />
                 </div>
                 <div class="w-full py-3">
                     <Confirm label="Send Now" @click="handleConfirm" />

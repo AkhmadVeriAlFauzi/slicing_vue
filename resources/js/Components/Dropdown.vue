@@ -2,7 +2,7 @@
   <div class="relative">
     <!-- Trigger -->
     <div
-      class="w-full bg-white text-sm text-[#4A4A4A] rounded-lg px-4 py-3 pr-12 border border-gray-300 cursor-pointer flex justify-between items-center"
+      class="w-full bg-[#F5EFFC] text-sm text-[#4A4A4A] rounded-lg px-4 py-3 pr-12 cursor-pointer flex justify-between items-center"
       @click="isOpen = !isOpen"
     >
       <span>{{ selectedLabel }}</span>

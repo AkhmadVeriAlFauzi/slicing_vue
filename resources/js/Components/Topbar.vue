@@ -22,8 +22,8 @@
           <img :src="'/icons/dropdown.png'" alt="" class="w-4 h-4 -rotate-90" />
         </button>
         <div v-show="showLang" class="absolute right-0 mt-2 w-28 bg-white border border-gray-200 rounded-md shadow-md z-50">
-          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">🇬🇧 English</a>
-          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">🇮🇩 Bahasa</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">English</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Bahasa</a>
         </div>
       </div>
 
