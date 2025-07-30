@@ -91,7 +91,7 @@ export default {
         { id: "#123456", date: "21/03/2021", amount: "$145.00", dueDate: "21/04/2021", status: "Paid" },
         { id: "#123457", date: "21/03/2021", amount: "$45.00", dueDate: "21/04/2021", status: "Unpaid" },
         { id: "#123458", date: "21/03/2021", amount: "$75.00", dueDate: "21/04/2021", status: "Paid" },
-        { id: "#123459", date: "21/03/2021", amount: "$345.00", dueDate: "21/04/2021", status: "Paid" },
+        { id: "#123459", date: "21/03/2021", amount: "$345.00", dueDate: "21/04/2021", status: "Unpaid" },
         { id: "#123460", date: "21/03/2021", amount: "$454.00", dueDate: "21/04/2021", status: "Paid" },
       ],
       activeMenu: null, // Index menu dropdown yang sedang aktif
