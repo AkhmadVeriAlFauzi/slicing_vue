@@ -1,7 +1,7 @@
 <template>
   <button
     class="relative text-center bg-[#4F45B6] w-full rounded-lg px-4 py-3 text-white text-sm hover:bg-[#3e3791] transition-colors"
-    @click="onClick"
+    @click="emit('click')"
   >
     {{ label }}
   </button>
@@ -14,10 +14,5 @@ defineProps({
     default: 'Confirm'
   }
 })
-
 const emit = defineEmits(['click'])
-
-function onClick() {
-  emit('click')
-}
 </script>

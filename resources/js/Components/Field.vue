@@ -8,6 +8,7 @@
         class="text-sm w-full outline-none bg-[#F5EFFC]"
         :placeholder="placeholder"
         :value="modelValue"
+        :type="type || 'text'"
         @input="$emit('update:modelValue', $event.target.value)"
       />
     </div>
@@ -19,7 +20,11 @@ defineProps({
   label: String,
   placeholder: String,
   icon: String,
-  modelValue: String
+  modelValue: String,
+  type: {
+    type: String,
+    default: 'text' // biar kalau ga diisi, tetap text
+  }
 })
 
 defineEmits(['update:modelValue'])
